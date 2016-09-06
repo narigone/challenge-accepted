@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<files>
+    <inputFile>mock.csv</inputFile>
+    <outputFile>result.json</outputFile>
+    <dateFormat>yyyy-mm-dd</dateFormat>
+    <filter>BornOnFirstSemesterFilter</filter>
+</files>
