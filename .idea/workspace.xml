@@ -2,47 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e673c494-334b-4b9a-ae11-f82499ab67cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__ch_qos_logback_logback_classic_1_1_2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__ch_qos_logback_logback_core_1_1_2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_scala_logging_scala_logging_2_11_3_4_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_ast_2_11_3_4_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_core_2_11_3_4_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_native_2_11_3_4_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_scalap_2_11_3_4_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_5_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_8_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_8_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_21_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/challenge-accepted.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mock.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/build.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/ChallengeAccepted.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/configs/AppConfig.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/factories/RecordFactory.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnFirstSemesterFilter.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/FemaleFilter.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/FilterTrait.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/MaleFilter.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/formatters/RecordJsonFormatter.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/models/Record.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/challenge-accepted.iml" afterPath="$PROJECT_DIR$/challenge-accepted.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IntelliJWithScala.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ScalaAndSimpleBuildToolShell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/factories/FilterFactory.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnSecondSemesterFilter.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result.log" afterPath="$PROJECT_DIR$/result.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/ChallengeAccepted.scala" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/ChallengeAccepted.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnFirstSemesterFilter.scala" afterPath="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnFirstSemesterFilter.scala" />
     </list>
     <ignored path="challenge-accepted.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +50,8 @@
       <file leaf-file-name="ChallengeAccepted.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/ChallengeAccepted.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#52#78#0" expanded="true" />
               </folding>
@@ -90,21 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="90">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -122,13 +81,47 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RecordJsonFormatter.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/formatters/RecordJsonFormatter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="306">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="e#63#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BornOnFirstSemesterFilter.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnFirstSemesterFilter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#60#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BornOnSecondSemesterFilter.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnSecondSemesterFilter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="e#60#127#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,7 +130,7 @@
       <file leaf-file-name="RecordFactory.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/factories/RecordFactory.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="432">
               <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
               <folding>
                 <element signature="e#62#87#0" expanded="true" />
@@ -146,35 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BornOnFirstSemesterFilter.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnFirstSemesterFilter.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding>
-                <element signature="e#60#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Record.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/models/Record.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="105" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="105" />
-              <folding>
-                <element signature="e#59#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MaleFilter.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/MaleFilter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="e#60#123#0" expanded="true" />
               </folding>
@@ -185,8 +154,8 @@
       <file leaf-file-name="FemaleFilter.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/FemaleFilter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="19" />
               <folding>
                 <element signature="e#60#123#0" expanded="true" />
               </folding>
@@ -217,10 +186,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/factories/RecordFactory.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/FemaleFilter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/MaleFilter.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/ChallengeAccepted.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/configs/AppConfig.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/factories/FilterFactory.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/ChallengeAccepted.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnSecondSemesterFilter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnFirstSemesterFilter.scala" />
       </list>
     </option>
@@ -255,8 +227,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -301,10 +273,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -499,92 +467,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="challenge-accepted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="challenge-accepted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="challenge-accepted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="challenge-accepted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="challenge-accepted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="challenge-accepted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="challenge-accepted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="challenge-accepted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="challenge-accepted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="challenge-accepted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="copyright" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -899,7 +781,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1473203461861" />
+    <option name="lastUpdateTimestamp" value="1473206557493" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -950,7 +832,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.49166667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -962,7 +843,6 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -972,7 +852,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.49166667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1007,6 +889,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/factories/FilterFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/configs/AppConfig.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#60#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/factories/RecordFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding>
+            <element signature="e#62#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnFirstSemesterFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#60#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/models/Record.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="105" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="105" />
+          <folding>
+            <element signature="e#59#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/MaleFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#60#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/FemaleFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#60#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/ChallengeAccepted.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#52#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/factories/RecordFactory.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -1021,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,14 +1009,6 @@
           <folding>
             <element signature="e#59#84#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/FilterTrait.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1069,7 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,80 +1088,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/loggers/RecordProcessingLogger.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/loggers/RecordProcessingLogger.scala" />
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/configs/DateConfig.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="6" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/formatters/RecordJsonFormatter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="e#63#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/factories/RecordFactory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-          <folding>
-            <element signature="e#62#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/FemaleFilter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#60#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/MaleFilter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#60#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/ChallengeAccepted.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#52#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/configs/DateConfig.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1212,11 +1115,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/FilterTrait.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="23" />
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/factories/FilterFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/factories/RecordFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding>
+            <element signature="e#62#87#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1230,13 +1153,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/FemaleFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#60#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/MaleFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#60#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/ChallengeAccepted.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#52#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/formatters/RecordJsonFormatter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#63#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnFirstSemesterFilter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="126">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
-            <element signature="e#60#85#0" expanded="true" />
+            <element signature="e#60#127#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/br/com/ideiainteligencia/challengeAccepted/filters/BornOnSecondSemesterFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#60#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

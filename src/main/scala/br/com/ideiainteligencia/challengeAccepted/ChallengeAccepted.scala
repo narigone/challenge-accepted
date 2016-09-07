@@ -3,7 +3,7 @@ package br.com.ideiainteligencia.challengeAccepted
 import java.io.PrintWriter
 
 import br.com.ideiainteligencia.challengeAccepted.configs.AppConfig
-import br.com.ideiainteligencia.challengeAccepted.factories.RecordFactory
+import br.com.ideiainteligencia.challengeAccepted.factories.{FilterFactory, RecordFactory}
 import br.com.ideiainteligencia.challengeAccepted.filters.{BornOnFirstSemesterFilter, FemaleFilter, FilterTrait, MaleFilter}
 import br.com.ideiainteligencia.challengeAccepted.formatters.RecordJsonFormatter
 import br.com.ideiainteligencia.challengeAccepted.models.Record
@@ -13,9 +13,8 @@ import scala.io.Source
 
 object ChallengeAccepted extends LazyLogging {
   def main(args: Array[String]): Unit = {
-    val filter = getFilterFromConfig()
+    val filter = FilterFactory.getFilterFromConfig()
 
-    print( filter );
     var recordList: Array[Record] = Array()
 
     logger.info( "Opening CSV file " + AppConfig.inputFile )
@@ -28,16 +27,6 @@ object ChallengeAccepted extends LazyLogging {
 
     val jsonAsString = RecordJsonFormatter.getJsonFromList(recordList.toList)
     saveResult(jsonAsString)
-  }
-
-  def getFilterFromConfig(): FilterTrait ={
-    if(AppConfig.filter == "MaleFilter"){
-      return MaleFilter
-    } else if( AppConfig.filter == "FemaleFilter" ){
-      return FemaleFilter
-    } else {
-      return BornOnFirstSemesterFilter
-    }
   }
 
   def processLine(line: String, filter: FilterTrait): Record = {
