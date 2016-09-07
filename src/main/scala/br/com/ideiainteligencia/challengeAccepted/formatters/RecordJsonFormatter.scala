@@ -1,20 +1,29 @@
 package br.com.ideiainteligencia.challengeAccepted.formatters
 
-import br.com.ideiainteligencia.challengeAccepted.configs.AppConfig
 import br.com.ideiainteligencia.challengeAccepted.models.Record
 
 import org.json4s._
 import org.json4s.JsonDSL._
 import org.json4s.native.JsonMethods._
 
+/**
+  * Object responsible for converting a record list to JSON format
+  */
 object RecordJsonFormatter {
-  def getJsonFromList(recordList: List[Record]) : String = {
+
+  /**
+    * Receives a record list and converts it to json format. Returns resulting string
+    *
+    * @param recordList Record list to be converted
+    * @return String
+    */
+  def getJsonFromList(recordList: List[Record]): String = {
     val json = recordList.map { record =>
       (
         ("name" -> record.name) ~
         ("email" -> record.email) ~
         ("gender" -> record.gender) ~
-        ("birthday" -> AppConfig.dateFormat.format(record.birthday.getTime))
+        ("birthday" -> record.birthday)
       )
     }
     return pretty(render(json))

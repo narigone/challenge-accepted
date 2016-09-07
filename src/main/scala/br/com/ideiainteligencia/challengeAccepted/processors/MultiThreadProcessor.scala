@@ -18,13 +18,21 @@ import scala.io.Source
 
 import scala.language.postfixOps
 
+/**
+  * File processor that filters records concurrently and afterwards saves it in json format
+  */
 object MultiThreadProcessor extends LazyLogging {
   def processFile() = {
-    val filter = FilterFactory.getFilterFromConfig(AppConfig.filter)
+    val filter = FilterFactory.buildFilter(AppConfig.filter)
 
-    logger.info( "Opening CSV file " + AppConfig.inputFile + " in multi-threaded processing mode" )
+    logger.info("Opening CSV file " + AppConfig.inputFile + " in multi-threaded processing mode")
 
-    val futures = Source.fromFile(AppConfig.inputFile).getLines.drop(1).map{ s => Future{ LineProcessor.processLine(s, filter) } }.toIndexedSeq
+    /* For each line in the file, creates a new Future that will
+       process the line and get back with a result */
+    val futures = Source.fromFile(AppConfig.inputFile).getLines.drop(1).map { s => Future {
+      LineProcessor.processLine(s, filter)
+    }
+    }.toIndexedSeq
 
     val results = Await.result(Future.sequence(futures), 100 seconds)
 
@@ -36,6 +44,9 @@ object MultiThreadProcessor extends LazyLogging {
   }
 
   def saveResult(jsonAsString: String) = {
-    new PrintWriter(AppConfig.outputFile) { write(jsonAsString); close }
+    new PrintWriter(AppConfig.outputFile) {
+      write(jsonAsString);
+      close
+    }
   }
 }

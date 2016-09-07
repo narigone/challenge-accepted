@@ -6,8 +6,8 @@ import br.com.ideiainteligencia.challengeAccepted.processors.{MultiThreadProcess
 import scala.io.Source
 
 object ChallengeAccepted {
-  def main(args: Array[String]) : Unit = {
-    if(AppConfig.runInSingleThreadMode){
+  def main(args: Array[String]): Unit = {
+    if (AppConfig.runInSingleThreadMode) {
       SingleThreadProcessor.processFile()
     } else {
       MultiThreadProcessor.processFile()

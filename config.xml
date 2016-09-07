@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <options>
     <inputFile>huge.csv</inputFile>
-    <outputFile>result.json</outputFile>
-    <dateFormat>yyyy-mm-dd</dateFormat>
-    <single-thread>false</single-thread>
+    <outputFile>result-single-thread-big-file.json</outputFile>
+    <singleThread>true</singleThread>
     <filter>BornOnFirstSemesterFilter</filter>
 </options>

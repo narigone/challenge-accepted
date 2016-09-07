@@ -12,13 +12,17 @@ import com.typesafe.scalalogging._
 
 import scala.io.Source
 
+/**
+  * File processor that filters records sequentially and afterwards saves it in json format
+  */
 object SingleThreadProcessor extends LazyLogging {
   def processFile() = {
-    val filter = FilterFactory.getFilterFromConfig(AppConfig.filter)
+    val filter = FilterFactory.buildFilter(AppConfig.filter)
 
     var recordList: Array[Record] = Array()
 
-    logger.info( "Opening CSV file " + AppConfig.inputFile + " in single-thread processing mode" )
+    logger.info("Opening CSV file " + AppConfig.inputFile + " in single-thread processing mode")
+
     for (line <- Source.fromFile(AppConfig.inputFile).getLines().drop(1)) {
       val record = LineProcessor.processLine(line, filter)
       if (record != null) {
@@ -31,6 +35,8 @@ object SingleThreadProcessor extends LazyLogging {
   }
 
   def saveResult(jsonAsString: String) = {
-    new PrintWriter(AppConfig.outputFile) { write(jsonAsString); close }
+    new PrintWriter(AppConfig.outputFile) {
+      write(jsonAsString); close
+    }
   }
 }

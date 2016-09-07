@@ -1,21 +1,29 @@
 package br.com.ideiainteligencia.challengeAccepted.models
 
-import java.util.Calendar
+/**
+  * Model for representing each individual record that is input into the program
+  *
+  * @param name
+  * @param email
+  * @param gender
+  * @param birthday
+  */
+case class Record(var name: String, var email: String, var gender: String, var birthday: String) {
+  var month = 0
+  var day = 0
+  var year = 0
 
-import br.com.ideiainteligencia.challengeAccepted.configs.AppConfig
-
-case class Record(var name: String, var email: String, var gender: String, var birthday: Calendar) {
+  if(birthday != null ) {
+    val tokens = birthday.split("-")
+    year = tokens(0).toInt
+    month = tokens(1).toInt
+    day = tokens(2).toInt
+  }
 
   def this(name: String, email: String, gender: String) = this(name, email, gender, null)
-  def this(name: String, email: String) = this(name, email, null, null)
-  def this(name: String) = this(name, null, null, null)
 
-  override def toString: String = {
-    if( birthday != null ) {
-      "(" + name + ", " + email + ", " + gender + ", "  + AppConfig.dateFormat.format(birthday.getTime()) + ")"
-    } else {
-      "(" + name + ", " + email + ", " + gender + ", null )"
-    }
-  }
+  def this(name: String, email: String) = this(name, email, null, null)
+
+  def this(name: String) = this(name, null, null, null)
 }
 

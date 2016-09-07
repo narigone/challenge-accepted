@@ -65,20 +65,23 @@ $ sbt
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <files>
-    <inputFile>mock.csv</inputFile>
+    <inputFile>data.csv</inputFile>
     <outputFile>result.json</outputFile>
-    <dateFormat>yyyy-mm-dd</dateFormat>
-    <single-thread>false</single-thread>
+    <singleThread>true</singleThread>
     <filter>BornOnFirstSemesterFilter</filter>
 </files>
 ```
 
 * **inputFile**: Caminho relativo à raiz ou absoluto do arquivo de entrada
 * **outputFile**: Caminho relativo à raiz ou absoluto do arquivo de saída em formato JSON
-* **dateFormat**: Formato de entrada da data de aniversário. Caso mude a entrada, a máscara deve ser alterada
 * **single-thread**: Determina se as linhas do arquivos devem ser processadas em sequência ou de maneira concorrente
 * **filter**: Filtro a ser usado no processamento do arquivo. Atualmente disponíveis são:
   * *BornOnFirstSemesterFilter*: Todos os usuários nascidos no primeiro semestre
   * *BornOnSecondSemesterFilter*: Todos os usuários nascidos no segundo semestre
   * *FemaleFilter*: Todos os usuários mulheres
   * *MaleFilter*: Todos os usuários homens
+
+## Testes de carga
+
+Programa foi testado com arquivos de até 40.000 registros apresentando performance e conformidade aceitáveis. Tentativas 
+com 4.000.000 de registros demonstraram queda significativa de performance
