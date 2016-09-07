@@ -38,12 +38,12 @@ $ sbt
 </files>
 ```
 
-**inputFile**: Caminho relativo à raiz ou absoluto do arquivo de entrada
-**outputFile**: Caminho relativo à raiz ou absoluto do arquivo de saída em formato JSON
-**dateFormat**: Formato de entrada da data de aniversário. Caso mude a entrada, a máscara deve ser alterada
-**filter**: Filtro a ser usado no processamento do arquivo. Atualmente disponíveis são:
-  *BornOnFirstSemesterFilter*: Todos os usuários nascidos no primeiro semestre
-  *BornOnSecondSemesterFilter*: Todos os usuários nascidos no segundo semestre
-  *FemaleFilter*: Todos os usuários mulheres
-  *MaleFilter*: Todos os usuários homens
+* **inputFile**: Caminho relativo à raiz ou absoluto do arquivo de entrada
+* **outputFile**: Caminho relativo à raiz ou absoluto do arquivo de saída em formato JSON
+* **dateFormat**: Formato de entrada da data de aniversário. Caso mude a entrada, a máscara deve ser alterada
+* **filter**: Filtro a ser usado no processamento do arquivo. Atualmente disponíveis são:
+  * *BornOnFirstSemesterFilter*: Todos os usuários nascidos no primeiro semestre
+  * *BornOnSecondSemesterFilter*: Todos os usuários nascidos no segundo semestre
+  * *FemaleFilter*: Todos os usuários mulheres
+  * *MaleFilter*: Todos os usuários homens
 
