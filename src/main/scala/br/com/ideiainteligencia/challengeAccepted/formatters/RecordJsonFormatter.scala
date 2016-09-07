@@ -12,10 +12,10 @@ object RecordJsonFormatter {
     val json = recordList.map { record =>
       (
         ("name" -> record.name) ~
-          ("email" -> record.email) ~
-          ("gender" -> record.gender) ~
-          ("birthday" -> AppConfig.dateFormat.format(record.birthday.getTime))
-        )
+        ("email" -> record.email) ~
+        ("gender" -> record.gender) ~
+        ("birthday" -> AppConfig.dateFormat.format(record.birthday.getTime))
+      )
     }
     return pretty(render(json))
   }

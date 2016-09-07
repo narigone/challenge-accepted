@@ -9,6 +9,8 @@ import com.typesafe.scalalogging._
 object RecordFactory extends LazyLogging{
 
   def getRecordFromLine(fileLine: String): Record = {
+    this.synchronized {
+   try {
     val tokens = fileLine.split(",")
 
     if (tokens.length == 4) {
@@ -22,9 +24,15 @@ object RecordFactory extends LazyLogging{
 
       new Record(name, email, gender, birthday)
     } else {
-      logger.error( "Record \"" + fileLine + "\" is incomplete and will be ignored" )
+      logger.warn( "Record \"(" + fileLine + ")\" is incomplete and will be ignored" )
       null
     }
+   } catch {
+     case e: Exception => {
+       println("Record \"(" + fileLine + ")\" cause error: " + e.getMessage())
+       return null
+     }
+   }
+  }
   }
 }
-

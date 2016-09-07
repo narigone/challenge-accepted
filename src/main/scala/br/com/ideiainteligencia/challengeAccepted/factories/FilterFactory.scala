@@ -1,14 +1,15 @@
 package br.com.ideiainteligencia.challengeAccepted.factories
 
-import br.com.ideiainteligencia.challengeAccepted.configs.AppConfig
-import br.com.ideiainteligencia.challengeAccepted.filters.{BornOnFirstSemesterFilter, FemaleFilter, FilterTrait, MaleFilter}
+import br.com.ideiainteligencia.challengeAccepted.filters.{BornOnFirstSemesterFilter, BornOnSecondSemesterFilter, FemaleFilter, FilterTrait, MaleFilter}
 
 object FilterFactory {
-  def getFilterFromConfig(): FilterTrait ={
-    if(AppConfig.filter == "MaleFilter"){
+  def getFilterFromConfig(filterName : String): FilterTrait ={
+    if( filterName == "MaleFilter"){
       return MaleFilter
-    } else if( AppConfig.filter == "FemaleFilter" ){
+    } else if( filterName == "FemaleFilter" ){
       return FemaleFilter
+    } else if( filterName == "BornOnSecondSemesterFilter" ){
+      return BornOnSecondSemesterFilter
     } else {
       return BornOnFirstSemesterFilter
     }

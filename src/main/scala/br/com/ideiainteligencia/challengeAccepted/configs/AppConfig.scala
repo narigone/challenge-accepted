@@ -10,12 +10,12 @@ object AppConfig {
 
   val xml = XML.loadFile(configFile)
 
-  var inputFile = (xml \\ "files" \\ "inputFile").text
-  var outputFile = (xml \\ "files" \\ "outputFile").text
-  val dateMask = (xml \\ "files" \\ "dateFormat").text
-  val filter = (xml \\ "files" \\ "filter").text
+  var inputFile = (xml \\ "options" \\ "inputFile").text
+  var outputFile = (xml \\ "options" \\ "outputFile").text
+  val dateMask = (xml \\ "options" \\ "dateFormat").text
+  val filter = (xml \\ "options" \\ "filter").text
+  val runInSingleThreadMode = (xml \\ "options" \\ "single-thread").text.toBoolean
 
   var dateFormat = new SimpleDateFormat(dateMask, Locale.US)
   var monthFormat = new SimpleDateFormat("mm", Locale.US)
 }
-
