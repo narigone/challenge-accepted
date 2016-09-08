@@ -21,11 +21,28 @@ object RecordJsonFormatter {
     val json = recordList.map { record =>
       (
         ("name" -> record.name) ~
+          ("email" -> record.email) ~
+          ("gender" -> record.gender) ~
+          ("birthday" -> record.birthday)
+        )
+    }
+    return pretty(render(json))
+  }
+
+  /**
+    * Receives a record and converts it to json format. Returns resulting string
+    *
+    * @param record Record list to be converted
+    * @return String
+    */
+  def getJsonFromRecord(record: Record): String = {
+    val json =
+      (
+        ("name" -> record.name) ~
         ("email" -> record.email) ~
         ("gender" -> record.gender) ~
         ("birthday" -> record.birthday)
       )
-    }
     return pretty(render(json))
   }
 }

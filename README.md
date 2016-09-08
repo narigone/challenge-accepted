@@ -51,7 +51,6 @@ $ sbt
 [info] Tests: succeeded 17, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 1 s, completed Sep 7, 2016 1:20:37 AM
-
 ```
 
 * **compile**: Baixa dependências e compila código
@@ -74,7 +73,7 @@ $ sbt
 
 * **inputFile**: Caminho relativo à raiz ou absoluto do arquivo de entrada
 * **outputFile**: Caminho relativo à raiz ou absoluto do arquivo de saída em formato JSON
-* **single-thread**: Determina se as linhas do arquivos devem ser processadas em sequência ou de maneira concorrente
+* **single-thread**: Determina se as linhas do arquivos devem ser processadas em sequência ou de maneira concorrente (Multi-thread experimental)
 * **filter**: Filtro a ser usado no processamento do arquivo. Atualmente disponíveis são:
   * *BornOnFirstSemesterFilter*: Todos os usuários nascidos no primeiro semestre
   * *BornOnSecondSemesterFilter*: Todos os usuários nascidos no segundo semestre
@@ -83,5 +82,26 @@ $ sbt
 
 ## Testes de carga
 
-Programa foi testado com arquivos de até 40.000 registros apresentando performance e conformidade aceitáveis. Tentativas 
-com 4.000.000 de registros demonstraram queda significativa de performance
+Programa foi testado com os seguintes arquivos:
+mock.csv - 40.000 registros - Tempo de processamento: 1 s
+big.csv - 400.000 registros - Tempo de processamento: 2 s
+huge.csv - 4.000.000 registros - Tempo de processamento: 15 s
+even-bigger.csv - 20.000.000 registros - Tempo de processamento: 86 s
+
+Está incluso no projeto um script shell para gerar arquivos maiores. Ele se chama multiply_input_file.sh e deve ser usado da seguinte maneira:
+
+```
+./multply_input_file.sh [input file] [output_file] [multiplication_factor]
+```
+
+Exemplo:
+```
+./multiply_input_file.sh mock.csv new_file.csv 10
+```
+
+Gera um arquivo new_file.csv com os registros de mock multiplicados por 10
+
+## Limitações 
+
+Processamento em concorrência (Multithreading) apresentou resultados inconstantes. Aparentemente o overhead de sincronização dos métodos provoca 
+mais atraso do que ganho. Natureza I/O bound do problema pode ser motivo.

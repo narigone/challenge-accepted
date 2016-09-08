@@ -1,8 +1,5 @@
 package br.com.ideiainteligencia.challengeAccepted.configs
 
-import java.text.SimpleDateFormat
-import java.util.Locale
-
 import scala.xml.XML
 
 /**
@@ -18,4 +15,5 @@ object AppConfig {
   val filter = (xml \\ "options" \\ "filter").text
   val runInSingleThreadMode = (xml \\ "options" \\ "singleThread").text.toBoolean
 
+  var outputWriter = "JsonOutputWriter"
 }

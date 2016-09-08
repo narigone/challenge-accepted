@@ -3,6 +3,7 @@ package br.com.ideiainteligencia.challengeAccepted.processors
 import br.com.ideiainteligencia.challengeAccepted.factories.RecordFactory
 import br.com.ideiainteligencia.challengeAccepted.filters.FilterTrait
 import br.com.ideiainteligencia.challengeAccepted.models.Record
+import br.com.ideiainteligencia.challengeAccepted.outputWriters.OutputWriterTrait
 
 /**
   * Object responsible for receiving a line from CSV file, building
@@ -17,19 +18,20 @@ object LineProcessor {
     *
     * @param line CSV line with record's data
     * @param filter filter to be applied to record
+    * @param outputWriterTrait outputWriter responsible for saving file
     * @return Record
     */
-  def processLine(line: String, filter: FilterTrait): Record = {
+  def processLine(line: String, filter: FilterTrait, outputWriterTrait: OutputWriterTrait) {
     val record = RecordFactory.getRecordFromLine(line)
     if (record == null) {
-      return null
+      return
     }
 
-    if (filter.isValid(record)) {
-      return record
+    if (!filter.isValid(record)) {
+      return
     }
 
-    return null
+    outputWriterTrait.addRecord(record)
   }
 
 }
