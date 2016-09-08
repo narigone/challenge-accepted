@@ -83,10 +83,10 @@ $ sbt
 ## Testes de carga
 
 Programa foi testado com os seguintes arquivos:
-mock.csv - 40.000 registros - Tempo de processamento: 1 s
-big.csv - 400.000 registros - Tempo de processamento: 2 s
-huge.csv - 4.000.000 registros - Tempo de processamento: 15 s
-even-bigger.csv - 20.000.000 registros - Tempo de processamento: 86 s
+* mock.csv - 40.000 registros - Tempo de processamento: 1 s
+* big.csv - 400.000 registros - Tempo de processamento: 2 s
+* huge.csv - 4.000.000 registros - Tempo de processamento: 15 s
+* even-bigger.csv - 20.000.000 registros - Tempo de processamento: 86 s
 
 Está incluso no projeto um script shell para gerar arquivos maiores. Ele se chama multiply_input_file.sh e deve ser usado da seguinte maneira:
 
@@ -94,12 +94,12 @@ Está incluso no projeto um script shell para gerar arquivos maiores. Ele se cha
 ./multply_input_file.sh [input file] [output_file] [multiplication_factor]
 ```
 
-Exemplo:
+Por exemplo, ao rodar o script com os seguintes parâmetros:
 ```
 ./multiply_input_file.sh mock.csv new_file.csv 10
 ```
 
-Gera um arquivo new_file.csv com os registros de mock multiplicados por 10
+Será gerado um arquivo new_file.csv com os registros de mock multiplicados por 10
 
 ## Limitações 
 
